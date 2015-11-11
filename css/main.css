@@ -169,3 +169,184 @@ margin-bottom: 0;
 .bottom_links ul li a.active{
 	color: #3DAFD5;
 }
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    min-height: 605px;
+    height: 605px;
+}
+
+.wrapper_slide{	
+  position: relative;	
+}
+
+.wrapp_slidet{	
+ 	position: absolute;
+	width: 100%;
+	top: 10px;
+	left: 0;
+}
+.wrapp_slidet p{
+color: white;
+font-family: "Myriad Pro";
+font-size: 24px;
+font-weight: 400;
+}
+.h1{
+	color: white;
+	font-family: OpenSans;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 48px;
+	margin-top: 160px;
+}
+section{
+	padding-top: 140px;
+}
+h1{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.about_us h1{
+	margin-bottom: 83px;
+}
+.wrapper_text{
+	height: 265px;
+	min-height: 255px;
+	 overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+.services p{
+color: #4b4b4b;
+font-family: "Myriad Pro";
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+}
+#owl-demo2{
+	margin-top: 80px;
+}
+.wrapper_text2{
+	height: 150px;
+	min-height: 150px;
+	 overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+.wrapper_text2 h2{
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+.wrapper_text2 p{
+	color: #003350;
+	font-family: OpenSans;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+#owl-demo2 .item{
+  margin: 3px;
+}
+#owl-demo2 .item img{
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+.bottom_line hr{
+	width: 100%;
+	height: 1px;
+	opacity: 0.5;
+	background-color: #e0e0e0;
+	color: #e0e0e0;
+	margin-top: 152px;
+	margin-bottom: 0;
+}
+.contacts input:focus{
+	background-image: none;
+}
+.checkbox label, .radio label,
+.checkbox-inline, .radio-inline{
+	padding-left: 0;
+}
+.radio-inline span{
+	letter-spacing:;
+}
+.btn-info{
+	float: right;
+}
+.block_contact .btn{
+	padding: 15px 12px;
+	color: white;
+	font-family: OpenSans;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+	text-transform: uppercase;
+
+	background-image: none;
+	background-repeat: none;
+	border-color: none;
+	border:none;
+	width: 201px;
+	height: 56px;
+	background-color: #26a6d1;
+	border-radius: 2px;
+	text-shadow: none;
+}
+.contact_info{
+	margin: 36px 29px 29px 29px;
+}
+.contact_info ul{
+	list-style-type: none;
+	padding-left: 65px;
+}
+.contact_info span{
+	color: #003350;
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 13px;
+}
+.contact_info .where{
+	margin-bottom: 22px;
+}
+.contact_info .adress{
+	margin-bottom: 10px;
+}
+.contact_info .adress, .contact_info .numbers{
+	color: #003350;
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	font-weight: 400;
+}
+#map {
+        height: 220px;
+        width: 420px;
+        margin-top: 21px;
+}
+.soc_buttons{
+	margin-top: 30px;
+}
+.soc_buttons a{
+	margin-right: 13px;
+}
+footer{
+	min-height: 82px;
+	height: 82px;
+	background-color: #003350;
+	margin-top: 140px;
+	padding: 33px;
+}
+footer span{
+	width: 200px;
+	height: 17px;
+	color: white;
+	font-family: "Myriad Pro";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+}

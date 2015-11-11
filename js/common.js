@@ -1,12 +1,32 @@
 $(document).ready(function() {
+	$(function() {
 
-	//Цели для Яндекс.Метрики и Google Analytics
-	$(".count_element").on("click", (function() {
-		ga("send", "event", "goal", "goal");
-		yaCounterXXXXXXXX.reachGoal("goal");
-		return true;
-	}));
+  $('input, select, checkbox').styler();
 
+});
+  $("#owl-demo").owlCarousel({
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 200,
+      paginationSpeed : 300,
+      singleItem:true
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+
+  $("#owl-demo2").owlCarousel({
+ 
+      autoPlay: 2000, //Set AutoPlay to 3 seconds
+ 
+      items : 3,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
 	//SVG Fallback
 	if(!Modernizr.svg) {
 		$("img[src*='svg']").attr("src", function() {
@@ -14,22 +34,6 @@ $(document).ready(function() {
 		});
 	};
 
-	//Аякс отправка форм
-	//Документация: http://api.jquery.com/jquery.ajax/
-	$("#form").submit(function() {
-		$.ajax({
-			type: "POST",
-			url: "mail.php",
-			data: $(this).serialize()
-		}).done(function() {
-			alert("Спасибо за заявку!");
-			setTimeout(function() {
-				
-				$("#form").trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
 
 	//Chrome Smooth Scroll
 	try {
